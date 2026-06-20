@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large datasets
+/data/
+/dataset/
+/datasets/
+*.zip
+*.rar
+*.7z
+
+# Optional local outputs
+/kaggle/working/
+outputs/
+logs/
+
+# Keep model_weights folder structure, but do not accidentally commit local temporary files
+model_weights/tmp/
