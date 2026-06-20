@@ -1,0 +1,6 @@
+BraTS Brain Tumor Segmentation using Attention U-Net
+===============================================
+Testing Results
+
+loss: 0.2423
+compile_metrics: 0.7664

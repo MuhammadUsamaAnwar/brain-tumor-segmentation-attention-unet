@@ -1,0 +1,22 @@
+
+Project Title: Brain Tumor Segmentation from Multi-Modal MRI using Attention U-Net
+
+Dataset: BraTS 2020 Training Data, H5 slice format
+Task: Semantic segmentation of tumor regions from MRI modalities
+Input Channels: 4 MRI modalities: FLAIR, T1, T1CE, T2
+Output Channels: 3 tumor mask channels
+Model: Attention U-Net
+Comparison Model Added Later: Standard U-Net
+
+Why this project fits Medical Image Computing:
+- Uses real medical MRI data
+- Performs segmentation instead of simple classification
+- Uses multi-modal medical imaging
+- Evaluates with Dice coefficient and IoU
+- Provides qualitative prediction overlays
+
+Testing Results:
+{
+    "loss": 0.2423175424337387,
+    "compile_metrics": 0.7663708925247192
+}
