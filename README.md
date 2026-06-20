@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 ## Model Weights
 
-Large trained model files such as `.keras`, `.h5`, `.pt`, or `.pth` should be stored using **Git LFS**. Place trained weights in the `model_weights/` folder.
+Model weights are not included due to file size. They can be provided separately if required.
 
 Example expected files:
 
